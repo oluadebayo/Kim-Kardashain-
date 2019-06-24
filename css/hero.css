@@ -3,17 +3,22 @@ html, body{
 	margin: 0;
 }
 header{
-	background-color: #847675;
+	/*background-color: #847675;*/
+	background-image: url("../img/background.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
 	padding: 40px;
  	text-align: center;
 }
 h1{
 	font-size: 90px;
 	color: #8C5146;
+	background-color: white;
 }
 h2{
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
+	color:  #8C5146;
 }
 header img{
 	size: 400px;
@@ -28,16 +33,16 @@ header img{
 }
 img.big-image{
 	max-width: 100%
+	padding: 50px;
+	background-color: white;
 }
 p.caption{
 	font-size: 16px;
 	color: pink;
 	font-style: italic;
 }
-ul{
-	list-style: none;
-	padding: 0;
-	margin: 0;
+footer ul{
+	text-align: center;
 }
 
 a{
@@ -49,25 +54,21 @@ p{
 	line-height: 1.6
 }
 
-div{
-	text-align: center;
-}
-
 li{
 	list-style: none;
 	text-align: center;
-	line-height: 2.5;
+	color: black;
+	line-height: 2.0;
+}
+footer ul li{
+	display: inline;
+	margin: 5px;
+	border-radius: 40px;
+	border-color:  #847675;
+}
+.footer{
 	background-color: #847675;
 	color: white;
-	margin: o auto;
-
-}
-
-
-footer{
-	padding: 70px 20px;
-	background-color: #ffffff;
-
 }
 
 /*<header>
