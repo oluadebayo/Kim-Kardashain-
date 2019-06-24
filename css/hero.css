@@ -1,4 +1,76 @@
-<header>
-			<img src="img/profile.jpg">
-			<h1>Kim Kardashian West</h1>
-		</header>
+html, body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+header{
+	background-color: #847675;
+	padding: 40px;
+ 	text-align: center;
+}
+h1{
+	font-size: 90px;
+	color: #8C5146;
+}
+h2{
+	text-align: center;
+	padding: 20px;
+}
+header img{
+	size: 400px;
+	border-radius: 20px;
+	width: 600px;
+}
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: justify;
+	padding: 0 20px;
+}
+img.big-image{
+	max-width: 100%
+}
+p.caption{
+	font-size: 16px;
+	color: pink;
+	font-style: italic;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #8C5146;
+	text-decoration: none;
+}
+
+p{
+	line-height: 1.6
+}
+
+div{
+	text-align: center;
+}
+
+li{
+	list-style: none;
+	text-align: center;
+	line-height: 2.5;
+	background-color: #847675;
+	color: white;
+	margin: o auto;
+
+}
+
+
+footer{
+	padding: 70px 20px;
+	background-color: #ffffff;
+
+}
+
+/*<header>
+		<img src="img/profile.jpg">
+		<h1>Kim Kardashian West</h1>
+	</header>*/
